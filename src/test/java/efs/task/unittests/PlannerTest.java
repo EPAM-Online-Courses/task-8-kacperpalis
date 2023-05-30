@@ -25,7 +25,6 @@ public class PlannerTest {
         //when
         var res = planner.calculateDailyCaloriesDemand(user,activityLevel);
 
-
         //then
         assertEquals(res, calories);
     }
